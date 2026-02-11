@@ -125,6 +125,7 @@ aside{
     
 
 }
+ 
 
 aside h1{
     margin-top: 40px;
@@ -146,9 +147,11 @@ aside h2{
 aside button.b{
   border: 1px solid #ceac91 ;
   font-family: "Newsreader", serif;
-  font-weight: bold;
+  font-weight: normal;
   
 }
+
+
 
 
 
