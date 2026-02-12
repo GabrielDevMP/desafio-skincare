@@ -28,7 +28,7 @@ html,body{
     background-position:  left center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     background-attachment: scroll;
      
 }
@@ -49,8 +49,8 @@ main h1  {
     position: absolute;
     font-weight: 400;
     font-size: 4em;
-     font-family: "Barriecito", system-ui;
-    
+    font-family: "Newsreader", serif;
+    font-weight: bold;
     top: 29%;
     left: 0%;
     transform: translate(6px, 68px);
@@ -60,14 +60,15 @@ main h1  {
 
 
 main h2 {
-
+    font-family: "Newsreader", serif;
+    font-weight: bold;
     position: absolute;
     color: white;
     top: 47%;
     font-size: 3em;
     left: 0%;
-    font-family: "Barriecito", system-ui;
-    transform: translate(-6px, 96px);
+    
+    transform: translate(17px, 96px);
 } 
 
 .botão{
