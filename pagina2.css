@@ -93,7 +93,7 @@ html{
 
 main{
     position: absolute;
-
+    width: 100vw;
     top: 22%;
 }
 
@@ -109,4 +109,5 @@ main p{
     font-weight: normal;
     color: #6c6661;
 }
+
 
