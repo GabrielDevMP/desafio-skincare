@@ -12,6 +12,14 @@
     padding: 0px;
     
 }
+
+/* Remover espaço em brando lateral no mobile
+
+ */
+html{
+    overflow-x: hidden !important; 
+}
+
 html,body{
     background-color: whitesmoke ;
     height: 100vh;
@@ -110,7 +118,7 @@ main h2 {
 
 aside{
     margin-top: 200px;
-    height: 150vh;
+    ;
 }
 
 

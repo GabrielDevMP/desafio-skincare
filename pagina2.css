@@ -8,9 +8,17 @@
     margin: 0px;
     padding: 0px;
 }
+/* Remover espaço em brando lateral no mobile
+
+ */
+html, body{
+    overflow-x: hidden !important; 
+}
+
 
 html{
     background-color:#fff7f5; 
+    
 }
 
 .navbar{
@@ -95,6 +103,7 @@ main{
     position: absolute;
     width: 100vw;
     top: 22%;
+   
 }
 
 main h1{
