@@ -95,10 +95,18 @@ main{
 
 }
 
-main h1{
-    font-size: 3.7em;
-    text-transform: uppercase;
+main h1 {
     font-family: "Newsreader", serif;
-    font-weight: normal;
+    font-size: 4.5em;
 
 }
+
+
+
+.top-50 {
+    top: 45% !important;
+}
+
+.top-100 {
+        top: 85% !important;
+    }
