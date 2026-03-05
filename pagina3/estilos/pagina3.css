@@ -2,12 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 
-
-html,body{
-
-    padding: 0px;
+*{
     margin: 0px;
+    padding: 0px;
 }
+
 
 .navbar{
     background-color: rgb(231, 224, 225);
@@ -87,26 +86,24 @@ html,body{
 }
 
 
-main{
-    position: absolute;
-    top: 29%;
-    width: 100vw;
-    height: 60vh;
-
+article > .container{
+    margin-top: 25%;
 }
 
-main h1 {
+article h1{
+
+    font-size: 3.4em;
     font-family: "Newsreader", serif;
-    font-size: 4.5em;
+    text-align: center;
+    color: #686159;
 
 }
 
-
-
-.top-50 {
-    top: 45% !important;
+article img{
+   position: absolute;
+   left: 6%;
+  
+   width: 87vw;
+   display: block;
+   margin: auto;
 }
-
-.top-100 {
-        top: 85% !important;
-    }
