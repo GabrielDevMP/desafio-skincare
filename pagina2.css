@@ -20,6 +20,9 @@ html{
     background-color:#fff7f5; 
     
 }
+body{
+    background-color: rgb(224, 197, 202);
+}
 
 .navbar{
     background-color: rgb(224, 197, 202);

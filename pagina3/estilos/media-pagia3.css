@@ -5,10 +5,12 @@
 @media screen   and (max-width:767px) {
     h1{
         margin-bottom: 40px ;
-    
+        text-align: center;
+        
     }
   #pa{
-    margin-top: 50px;    
+    margin-top: 50px; 
+    text-align: center;   
   }
   img{
     width: 79vw;
@@ -22,6 +24,7 @@
    
     h1{
         margin-top: 20px;
+        text-align: center;
     }
    img{
     margin-top: 24%;
@@ -35,17 +38,18 @@ margin-top: 13%;
 
  /*corrigindo o erro tela +/- grande */
  @media screen  and (min-width:992px) and (max-width:1998px) {  
-           h1{
-            padding: 0px;
-            margin: 0px;
-            font-size: 20px;
+          main h1{
+            margin: 10px;
+            font-size: 3.3em;
            }
            img{
-            margin: 0px;
+            margin: 10px;   
             padding: 0px;
            }
            #pa{
+           
             padding: 0px;
+            text-align: start;
            }
     }
 
