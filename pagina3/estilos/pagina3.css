@@ -102,8 +102,38 @@ article h1{
 article img{
    position: absolute;
    left: 6%;
-  
    width: 87vw;
    display: block;
    margin: auto;
+   
+}
+
+.pa{
+ 
+    width: 65%;
+    position: absolute;
+    top: 187%;
+    left: 14%;
+    color: #686159;
+    font-size: 1.3em;
+}
+.pa2{
+    width: 65%;
+    position: absolute;
+    top: 227%;
+    left: 14%;
+    color: #686159;
+    font-size: 1.3em;
+}
+.pa3{
+    width: 65%;
+    position: absolute;
+    top: 268%;
+    left: 14%;
+    color: #686159;
+    font-size: 1.3em;
+}
+
+h4{
+    font-family: "Newsreader", serif;
 }
