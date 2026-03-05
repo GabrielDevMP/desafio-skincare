@@ -7,7 +7,9 @@
     padding: 0px;
 }
 
-
+html, body{
+    overflow-x: hidden !important; 
+}
 .navbar{
     background-color: rgb(231, 224, 225);
     height: 80px;
@@ -85,58 +87,29 @@
    
 }
 
+main{
+    position: absolute;
+    top: 29%;
+    width: 100vw;
+    height: 60vh;
 
-article > .container{
-    margin-top: 25%;
 }
 
-article h1{
-
-    font-size: 3.4em;
+main h1 {
     font-family: "Newsreader", serif;
-    text-align: center;
-    color: #686159;
+    color:#584F3B ;
+    font-size: 4.5em;
 
 }
 
-article img{
-   position: absolute;
-   left: 6%;
-   width: 87vw;
-  
-   margin: auto;
-   
+main p{
+    color: #584F3B;
 }
 
-.pa{
-   
-    width: 65%;
-    position: absolute;
-    top: 81%;
-    left: 14%;
-    color: #686159;
-    font-size: 1.3em;
-    text-align: start;
-}
-    /*
-.pa2{
-    width: 65%;
-    position: absolute;
-    top: 111%;
-    left: 14%;
-    color: #686159;
-    font-size: 1.3em;
-}
-.pa3{
-    width: 65%;
-    position: absolute;
-    top: 140%;
-    left: 14%;
-    color: #686159;
-    font-size: 1.3em;
+.top-50 {
+    top: 45% !important;
 }
 
-h4{
-    font-family: "Newsreader", serif;
-}
-*/
+.top-100 {
+        top: 85% !important;
+    }
