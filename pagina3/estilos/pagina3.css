@@ -107,12 +107,12 @@ article img{
    margin: auto;
    
 }
-/*
+
 .pa{
  
     width: 65%;
     position: absolute;
-    top: 187%;
+    top: 81%;
     left: 14%;
     color: #686159;
     font-size: 1.3em;
@@ -120,7 +120,7 @@ article img{
 .pa2{
     width: 65%;
     position: absolute;
-    top: 227%;
+    top: 111%;
     left: 14%;
     color: #686159;
     font-size: 1.3em;
@@ -128,12 +128,12 @@ article img{
 .pa3{
     width: 65%;
     position: absolute;
-    top: 268%;
+    top: 140%;
     left: 14%;
     color: #686159;
     font-size: 1.3em;
 }
-*/
+
 h4{
     font-family: "Newsreader", serif;
 }
