@@ -95,6 +95,7 @@ main{
 
 }
 
+
 main h1 {
     font-family: "Newsreader", serif;
     color:#584F3B ;
@@ -104,6 +105,10 @@ main h1 {
 
 main p{
     color: #584F3B;
+    font-family: "Newsreader", serif;
+}
+h4{
+    font-family: "Newsreader", serif;
 }
 
 .top-50 {

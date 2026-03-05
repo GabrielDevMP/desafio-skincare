@@ -2,3 +2,44 @@
 
 
 /* tela pequena   */
+@media screen   and (max-width:767px) {
+  #pa{
+    margin-top: 50px;    
+  }
+  img{
+    width: 77vw;
+    margin: auto;
+  }
+}
+
+ /* tela media   */
+@media screen  and (min-width:768px) and (max-width:991px) {  
+
+
+   img{
+    margin-top: 24%;
+   }
+   #pa{
+margin-top: 13%;
+   }
+ }
+
+
+
+ /*corrigindo o erro tela +/- grande */
+ @media screen  and (min-width:992px) and (max-width:1998px) {  
+           h1{
+            padding: 0px;
+            margin: 0px;
+            font-size: 20px;
+           }
+           img{
+            margin: 0px;
+            padding: 0px;
+           }
+           #pa{
+            padding: 0px;
+           }
+    }
+
+  
