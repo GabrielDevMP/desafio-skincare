@@ -7,7 +7,7 @@
     margin-top: 50px;    
   }
   img{
-    width: 77vw;
+    width: 79vw;
     margin: auto;
   }
 }
@@ -15,7 +15,10 @@
  /* tela media   */
 @media screen  and (min-width:768px) and (max-width:991px) {  
 
-
+   
+    h1{
+        margin-top: 20px;
+    }
    img{
     margin-top: 24%;
    }
