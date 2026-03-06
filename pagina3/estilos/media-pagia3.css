@@ -3,6 +3,13 @@
 
 /* tela pequena   */
 @media screen   and (max-width:767px) {
+
+  html, body{
+    overflow-x: hidden !important; 
+}
+
+
+
     h1{
         margin-bottom: 40px ;
         text-align: center;
@@ -12,15 +19,24 @@
     margin-top: 50px; 
     text-align: center;   
   }
+
+
+
   img{
-    
     margin: auto;
+    width: 77vw;
     display: block;
+   
   }
 }
 
  /* tela media   */
 @media screen  and (min-width:768px) and (max-width:991px) {  
+
+
+        html, body{
+          overflow-x: hidden !important; 
+      }
 
    
    
@@ -41,6 +57,14 @@ margin-top: 13%;
 
  /*corrigindo o erro tela +/- grande */
  @media screen  and (min-width:992px) and (max-width:1998px) {  
+
+
+            html, body{
+            overflow-x: hidden !important; 
+        }
+
+
+
 
           .meio{
             position: relative;
