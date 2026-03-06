@@ -13,8 +13,9 @@
     text-align: center;   
   }
   img{
-    width: 79vw;
+    
     margin: auto;
+    display: block;
   }
 }
 
