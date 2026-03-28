@@ -1,4 +1,131 @@
-@charset "UTF-8";
+/* Menu de navegação moderno com menu hamburguer puro CSS */
+
+
+
+
+
+.nav-header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 2rem;
+    position: relative;
+    z-index: 10;
+}
+.logo-nav {
+    font-family: 'Barriecito', cursive;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: color 0.2s;
+}
+.logo-nav:hover {
+    color: #00c8c8;
+}
+.nav-toggle {
+    display: none;
+}
+.nav-hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 200;
+}
+.nav-hamburger span {
+    height: 4px;
+    width: 100%;
+    background: #fff;
+    margin: 5px 0;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.nav-menu li {
+    display: flex;
+    align-items: center;
+}
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.2s;
+    position: relative;
+    padding: 0.2em 0.5em;
+}
+.nav-menu a:hover {
+    color: #00c8c8;
+}
+.nav-btn {
+    background: transparent;
+    color: #fff;
+    border: 1.5px solid #00c8c8;
+    border-radius: 4px;
+    padding: 0.3em 1em;
+    margin-left: 0.3em;
+    font-weight: 600;
+   
+    text-decoration: none;
+    font-size: 1rem;
+}
+.nav-btn:hover {
+    background: #00c8c8;
+    color: #051933;
+    border-color: #fff;
+}
+.nav-btn--highlight {
+    background: #00c8c8;
+    color: #051933;
+    border: 1.5px solid #00c8c8;
+}
+.nav-btn--highlight:hover {
+    background: #fff;
+    color: #0056b3;
+    border-color: #00c8c8;
+}
+
+@media (max-width: 863px) {
+    .nav-header {
+        padding: 1rem;
+    }
+    .nav-hamburger {
+        display: flex;
+    }
+    .nav-menu {
+        flex-direction: column;
+        gap: 0;
+        background: rgba(10, 20, 40, 0.92);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100vw;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1);
+        box-shadow: 0 8px 24px 0 rgba(0,0,0,0.12);
+        z-index: 100;
+        display: flex;
+    }
+    .nav-toggle:checked + .nav-hamburger + .nav-menu {
+        max-height: 400px;
+        padding-bottom: 1rem;
+    }
+}
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
@@ -38,8 +165,144 @@ html,body{
     background-size: cover;
     height: 100vh;
     background-attachment: scroll;
-     
 }
+
+/* Header moderno com fundo translúcido */
+.modern-header {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    min-height: 90px;
+    background: rgba(10, 20, 40, 0.55);
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+}
+.modern-header__nav {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.modern-header__logo {
+    font-family: 'Barriecito', cursive;
+    font-size: 2.2rem;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: color 0.2s;
+}
+.modern-header__logo:hover {
+    color: #00c8c8;
+}
+.modern-header__menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+.modern-header__menu li {
+    display: flex;
+    align-items: center;
+}
+.modern-header__menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.2s;
+    position: relative;
+    padding: 0.2em 0.5em;
+}
+.modern-header__menu a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #00c8c8;
+    transition: width 0.3s;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+.modern-header__menu a:hover::after {
+    width: 100%;
+}
+.modern-header__menu a:hover {
+    color: #00c8c8;
+}
+.modern-header__actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.modern-header__search {
+    padding: 0.4em 0.8em;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    margin-right: 0.5rem;
+    background: rgba(255,255,255,0.85);
+    color: #222;
+}
+.modern-header__btn {
+    background: transparent;
+    color: #fff;
+    border: 1.5px solid #00c8c8;
+    border-radius: 4px;
+    padding: 0.3em 1em;
+    margin-left: 0.3em;
+    font-weight: 600;  
+    text-decoration: none;
+    font-size: 1rem;
+}
+.modern-header__btn:hover {
+    background: #00c8c8;
+    color: #494d52;
+    border-color: #fff;
+}
+.modern-header__btn--highlight {
+    background: #00c8c8;
+    color: #051933;
+    border: 1.5px solid #00c8c8;
+}
+.modern-header__btn--highlight:hover {
+    background: #fff;
+    color: #0056b3;
+    border-color: #00c8c8;
+}
+
+@media (max-width: 900px) {
+    .modern-header__nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        padding: 1rem;
+    }
+    .modern-header__menu {
+        gap: 1rem;
+    }
+    .modern-header__logo {
+        font-size: 1.5rem;
+    }
+    .modern-header__actions {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
+    .modern-header__search {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
+
 
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
