@@ -437,18 +437,21 @@ aside button.b{
 }
 
 
-@media (max-width: 699px) {
-    .img{
-        margin-top:-154px;
-    }
-}
+
   
 
 @media (max-width:699px) {
     .clean{
         margin-top: 30px ;
     }
+     .img{
+        margin-top:-154px;
+    }
+  mian h2{
+   left: -4%;
+  }
 }
+
 
 
 
