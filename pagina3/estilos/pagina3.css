@@ -119,9 +119,30 @@ h4{
 
 article.foto2{
     background: url(../imagem/creation_2523088704.jpg) no-repeat;
-    height: 237vh;
+    height:213vh;
     background-size: contain;
 
   
 }
+@media screen and (min-width:777px)and  (max-width:992px) 
+{ 
+    article.foto2{
+    background: url(../imagem/creation_2523088704.jpg) no-repeat;
+    height: 129vh;
+    background-size: contain;
 
+  
+}
+}
+
+
+@media screen and  (max-width:777px) 
+{ 
+    article.foto2{
+    background: url(../imagem/creation_2523088704.jpg) no-repeat;
+    height: 93vh;
+    background-size: contain;
+
+  
+}
+}
