@@ -89,7 +89,35 @@ margin-top: 13%;
            }
     }
 
+ /* foto da pagina 3 */
 
-  
 
+
+@media screen and (min-width:500px)and  (max-width:639px) 
+{ 
+    article.foto2{
+    background: url(../imagem/creation_2523088704.jpg) no-repeat;
+    height: 63vh;
+    background-size: cover ;
+}
+}
+
+@media screen and (min-width:639px)and  (max-width:777px) 
+{ 
+    article.foto2{
+    background: url(../imagem/creation_2523088704.jpg) no-repeat;
+    height: 78vh;
+    background-size: cover ;
+}
+}
+
+
+@media screen and (min-width:1047px)
+{ 
+    article.foto2{
+    background: url(../imagem/creation_2523088704.jpg) no-repeat;
+    height: 67vh;
+    background-size: contain;
+}
+}
   

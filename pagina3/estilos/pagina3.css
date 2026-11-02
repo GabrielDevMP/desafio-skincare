@@ -118,31 +118,12 @@ h4{
     }
 
 article.foto2{
-    background: url(../imagem/creation_2523088704.jpg) no-repeat;
-    height:213vh;
-    background-size: contain;
+    display: inline-block;
+    background: url(../imagem/creation_2523088704.jpg)  ;
+    height: 78vh;
+    background-size: cover, contain;
+    background-position:   center;
 
   
 }
-@media screen and (min-width:777px)and  (max-width:992px) 
-{ 
-    article.foto2{
-    background: url(../imagem/creation_2523088704.jpg) no-repeat;
-    height: 129vh;
-    background-size: contain;
 
-  
-}
-}
-
-
-@media screen and  (max-width:777px) 
-{ 
-    article.foto2{
-    background: url(../imagem/creation_2523088704.jpg) no-repeat;
-    height: 93vh;
-    background-size: contain;
-
-  
-}
-}
