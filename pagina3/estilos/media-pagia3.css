@@ -71,7 +71,7 @@ margin-top: 13%;
           }
 
 
-          main h1{
+          .meio > h1{
             position: absolute;
             margin: 10px;
             font-size: 4.3em;
@@ -125,13 +125,3 @@ margin-top: 13%;
 
 
 /* texto que está dentro da foto */
-
-
- 
-
-@media screen and  (max-width:991px) {
-  #h1-foto{
-    font-size:60px;
-    transform: translate(0%, 92%);
-  }
-}
