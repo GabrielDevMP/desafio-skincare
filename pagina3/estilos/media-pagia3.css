@@ -121,3 +121,10 @@ margin-top: 13%;
 }
 }
   
+
+
+@media screen and  (max-width:777px) {
+  #h1-foto{
+    font-size:60px;
+  }
+}
