@@ -89,10 +89,10 @@ margin-top: 13%;
            }
     }
 
+
+
+
  /* foto da pagina 3 */
-
-
-
 @media screen and (min-width:500px)and  (max-width:639px) 
 { 
     article.foto2{
@@ -123,8 +123,15 @@ margin-top: 13%;
   
 
 
-@media screen and  (max-width:777px) {
+
+/* texto que está dentro da foto */
+
+
+ 
+
+@media screen and  (max-width:991px) {
   #h1-foto{
     font-size:60px;
+    transform: translate(0%, 92%);
   }
 }
