@@ -71,7 +71,7 @@ margin-top: 13%;
           }
 
 
-          .meio > h1{
+          .meio > h1{ /* Aplica o posicionamento desktop só ao título de avaliações, não ao da foto. */
             position: absolute;
             margin: 10px;
             font-size: 4.3em;

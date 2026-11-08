@@ -121,11 +121,11 @@ h4{
     }
 
 article.foto2{
-    display: flex;
-    width: 100%;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* Organiza o título como filho flexível da área da foto. */
+    width: 100%; /* Faz a área da foto ocupar toda a largura disponível. */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo da largura. */
+    justify-content: center; /* Centraliza o título na horizontal. */
+    align-items: center; /* Centraliza o título na vertical. */
     background: url(../imagem/creation_2523088704.jpg)  ;
     height: 74vh;
     background-size: cover, contain;
@@ -139,10 +139,10 @@ article h1 {
   color: white;
   font-weight: 400;
   font-style: normal;  
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  font-size: clamp(2rem, 6vw, 4.5rem);
-  line-height: 1.15;
-  text-align: center;
+  width: 100%; /* Usa toda a largura da foto para centralizar as linhas. */
+  max-width: none; /* Remove o limite de largura aplicado pela classe Bootstrap container. */
+  margin: 0; /* Evita que a margem desloque o título do centro. */
+  font-size: clamp(2rem, 6vw, 4.5rem); /* Ajusta a fonte à tela, respeitando mínimo e máximo. */
+  line-height: 1.15; /* Mantém espaçamento proporcional entre as linhas. */
+  text-align: center; /* Centraliza o texto dentro do título. */
 }
